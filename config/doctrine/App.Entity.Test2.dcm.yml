@@ -1,0 +1,16 @@
+App\Entity\Test2:
+  type: entity
+  table: test2
+
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: IDENTITY
+  fields:
+    param1:
+      type: string
+      nullable: true
+    param2:
+      type: string
+      nullable: true

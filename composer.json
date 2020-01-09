@@ -1,0 +1,16 @@
+{
+    "name": "miinto/tests",
+    "require": {
+        "miinto/storage": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs", "url": "git@github.com:kchojdak/miinto-storage.git"
+        }
+    ]
+}
